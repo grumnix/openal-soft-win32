@@ -50,7 +50,6 @@
     },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
         "openal-soft_src": "openal-soft_src",
         "tinycmmc": "tinycmmc"
@@ -58,9 +57,7 @@
     },
     "tinycmmc": {
       "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
+        "flake-utils": "flake-utils",
         "nixpkgs": [
           "nixpkgs"
         ]
